@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['10', '100', '20', '200', '2000', '50', '500']
+
+roboflow:
+  workspace: ml-project-d0vep
+  project: indian-currency-detection-elfyf
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ml-project-d0vep/indian-currency-detection-elfyf/dataset/2
